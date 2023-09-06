@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 export const Layout = ({ search, setSearch }) => {
   return (
     <div className="App">
-      <Header title="React Social Web Blog" />
+      <Header title="London is red blog - React Js" />
       <Nav search={search} setSearch={setSearch} />
       <Outlet />
       <Footer />

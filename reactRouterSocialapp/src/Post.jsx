@@ -8,9 +8,9 @@ export const Post = ({ post }) => {
         <p className="postDate">{post.datetime}</p>
       </Link>
       <p className="postBody">{
-        (post.body).length <= 30
+        (post.body).length <= 60
           ? post.body
-          : `${(post.body).slice(0, 30)}...`
+          : `${(post.body).slice(0, 60)}...`
       }</p>
 
     </article>
