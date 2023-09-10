@@ -7,6 +7,7 @@ import ErrorPage from './routes/ErrorPage'
 import ProductPage from './components/main/ProductPage'
 import Home from './components/main/Home'
 import { About } from './components/about/About'
+import ProductDetail from './components/main/ProductDetail'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/products",
-        element: <ProductPage />
+        element: <ProductPage />,
       },
       {
         path: "/",
@@ -25,6 +26,15 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
+      },
+      {
+        path: "/products",
+        children: [
+          {
+            path: ':productName',
+            element: <ProductDetail />,
+          }
+        ]
       }
     ]
   }

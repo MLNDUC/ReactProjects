@@ -1,8 +1,6 @@
 import './ProductDetail.css'
 
-import React from 'react'
-
-const ProductDetail = () => {
+const ProductDetail = (product) => {
   return (
     <div className='productDetails'>Product detail information</div>
   )

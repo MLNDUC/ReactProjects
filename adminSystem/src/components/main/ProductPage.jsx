@@ -1,5 +1,6 @@
 import Product from './Product'
 import './ProductPage.css'
+
 //import products
 import product1 from '../../assets/productImages/athletic-cotton-socks-6-pairs.jpg';
 import product2 from '../../assets/productImages/intermediate-composite-basketball.jpg';
@@ -11,6 +12,7 @@ import product5 from "../../assets/productImages/6-piece-white-dinner-plate-set.
 import star4 from '../../assets/ratings/rating-40.png';
 import star45 from '../../assets/ratings/rating-45.png';
 import star50 from '../../assets/ratings/rating-50.png';
+
 
 
 

@@ -1,14 +1,16 @@
 import './Product.css'
 import checked_icon from '../../assets/productImages/checkmark.png'
 
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Product = ({ product }) => {
   return (
     <article className='product-container'>
       <div className="product-image-container">
-        <img className="product-image"
-          src={product.image} />
+        <Link to={`/products/${product.name}`}>
+          <img className="product-image"
+            src={product.image} />
+        </Link>
       </div>
 
       <div className="product-name limit-text-to-2-lines">

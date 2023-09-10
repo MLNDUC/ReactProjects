@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-.homePage p {
+/* .homePage p {
   animation: scrolling-left 10s linear infinite;
   animation-delay: 0;
 }
@@ -23,4 +23,4 @@
   100% {
     transform: translateX(-10%)
   }
-}
+} */
