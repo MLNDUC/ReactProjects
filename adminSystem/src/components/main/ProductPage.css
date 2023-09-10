@@ -1,0 +1,14 @@
+.products {
+  height: 100%;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #ffffff;
+}
+
+.no-product {
+  color: red;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
