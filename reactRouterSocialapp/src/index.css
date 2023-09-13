@@ -145,9 +145,6 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.post:hover {
-  background-color: rgb(255, 227, 227);
-}
 
 .Home .post a {
   text-decoration: none;
