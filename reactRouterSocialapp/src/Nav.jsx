@@ -16,7 +16,7 @@ export const Nav = ({ search, setSearch }) => {
 
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="post">Post</Link></li>
+        <li><Link to="newpost">New Post</Link></li>
         <li><Link to="about">About</Link></li>
       </ul>
     </nav>
