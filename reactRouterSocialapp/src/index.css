@@ -51,6 +51,18 @@ body {
 
 .Header h1 {
   font-size: 1.5rem;
+  margin-right: 36px;
+}
+
+.window-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Header svg {
